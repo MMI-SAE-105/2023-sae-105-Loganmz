@@ -24,6 +24,10 @@ background: linear-gradient(302.5deg, #213136 48.54%, #496D78 138.53%, #FFFFFF 1
 img{
     max-width: 100%;
 }
+
+a{
+    text-decoration: none;
+}
 .div2 h3{
     font-size: 36px;
     font-family:'Arkhip', sans-serif;
@@ -74,4 +78,21 @@ footer{
     font-family:'Arkhip', sans-serif;
     color: #000000;
     font-weight: 100;
+}
+
+.Titre-caroussel{
+    font-size: 24px;
+    font-family:'Arkhip', sans-serif;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+.frise p{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+.frise H3{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
 }
