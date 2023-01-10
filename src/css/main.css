@@ -7,3 +7,11 @@ background: linear-gradient(302.5deg, #213136 48.54%, #496D78 138.53%, #FFFFFF 1
     color: #FFFFFF;
     font-weight: 100;
 }
+
+.Titre-article{
+    font-family:'OrkneyRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+
+}
