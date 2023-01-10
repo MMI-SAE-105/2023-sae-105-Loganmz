@@ -1,0 +1,24 @@
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 0.625rem;
+    padding-bottom: 0.3125rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+    margin-left: 0.3125rem;
+    margin-right: 0.3125rem;
+}
+
+.navtoogle{
+    background-color: aqua;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    
+}
+.navbar{
+    
+}
