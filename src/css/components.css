@@ -1,0 +1,13 @@
+.Titre-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: 5px;
+    
+}
+.ligne{
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+}
