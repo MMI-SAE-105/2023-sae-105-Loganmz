@@ -8,6 +8,7 @@ header{
     margin-top: 0;
     margin-left: 0.3125rem;
     margin-right: 0.3125rem;
+    z-index: 3;
 }
 
 .navtoogle{

@@ -90,10 +90,13 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-top: -200px;
 }
 
 .div8 { grid-area: 3 / 1 / 6 / 4; }
-.div9 { grid-area: 1 / 2 / 4 / 3;}
+.div9 { grid-area: 1 / 2 / 4 / 3;
+z-index: 2;
+}
 
 
 .sous_titre_date{
@@ -103,9 +106,27 @@
 
 }
 
-.div9 img{
-    max-width: 200%;
-
+.div9{
+    height: auto;
+    width: 300px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div8{
+    background-color: #DAD6C1;
     
+}
+.div8 p{
+    margin-top: 0.625rem;
+    margin-left: 1.25rem;
+    line-height: 30px;
+}
 
+.div8 h3{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
