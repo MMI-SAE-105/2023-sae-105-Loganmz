@@ -1,0 +1,9 @@
+body{
+background: linear-gradient(302.5deg, #213136 48.54%, #496D78 138.53%, #FFFFFF 184.22%);
+}
+.header-titre{
+    font-size: 24px;
+    font-family:'Arkhip', sans-serif;
+    color: #FFFFFF;
+    font-weight: 100;
+}

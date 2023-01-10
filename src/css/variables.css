@@ -1,0 +1,16 @@
+:root{
+    /* Color styles */
+--blue-lagoon: rgba(33, 49, 54, 1);
+--grey: rgba(217, 214, 209, 1);
+--white: rgba(255, 255, 255, 1);
+--blue-dark: rgba(56, 59, 73, 1);
+--red-orange: rgba(155, 109, 91, 1);
+--black: rgba(0, 0, 0, 1);
+--blue: rgba(73, 109, 120, 1);
+
+/* Text-size styles */
+--titre: 32px;
+--sous-titre: 24px;
+--article: 20px;
+--description: 16px;
+}
