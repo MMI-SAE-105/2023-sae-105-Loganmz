@@ -1,5 +1,6 @@
 footer{
     background-color: rgb(0, 0, 0,0.7) ;
+    text-decoration: none;
     
 }
 
@@ -54,4 +55,8 @@ footer{
 
 .div7{
    padding-left: 10px; 
+}
+
+.footer-grid a{
+    color: #FFFFFF;
 }
