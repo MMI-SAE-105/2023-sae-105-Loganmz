@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 45px;
-    margin-left: -2px;
+    margin-left: 0px;
     
 }
 .ligne{
@@ -192,3 +192,46 @@ grid-row-gap: 0px;
     align-items: center;
     justify-content: center;
 }
+
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: px;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(302.5deg, #695b48 48.54%, #c0bfbf 138.53%, #FFFFFF 184.22%);
+    display: flex;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    transition: ease-in-out;
+    
+    
+
+    padding-top: 50px;
+    border-radius: 2px;
+    margin-left: 0px;
+    
+    
+    }
+.header_menuBtn {
+    position: relative;
+    z-index: 10;
+    }
+    .noscroll,
+    .noscroll body {
+      overflow: hidden;
+    }
+button{
+    background-color: transparent;
+    border-color: transparent;
+}
+nav ul {
+    color: #ffffff;
+    text-decoration: none;
+    
+    
+    
+    }
+

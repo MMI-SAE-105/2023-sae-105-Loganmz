@@ -39,12 +39,15 @@ header{
     top: 10px;
 }
 .home{
-    top: 10px;
+    top: 0px;
+    margin-top: 10px;
+    z-index: 10;
 }
 .header-titre{
     position: relative;
     top: 32px;
-    margin-right: 85px;
+    margin-right: 25px;
+    z-index: 10;
     
     
 }
@@ -53,4 +56,21 @@ header{
     display: block;
     margin-top: 80px;
     margin-left: 75px;
+    z-index: 10;
+}
+
+header li{
+    text-decoration: none;
+    list-style: none;
+   
+}
+header a{
+    color: var(--white);
+    
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
