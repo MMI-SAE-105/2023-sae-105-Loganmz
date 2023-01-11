@@ -3,4 +3,5 @@
 @import "header.css";
 @import "font.css";
 @import "components.css";
-@import "Normalize.css"
+@import "Normalize.css";
+@import "variables.css";
