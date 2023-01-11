@@ -9,18 +9,24 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
-    <div x-data="{ currentSlide: 0 }" class="carousel">
-        <div class="carousel__slides" x-bind:style="{ transform: 'translateX(-' + (currentSlide * 100) + '%)' }">
-          <div class="carousel__slide" x-for="(slide, index) in slides">
-            <img src="public/img/Media.webp" alt="">
-            
+    <div class="carousel" x-data="{ activeSlide: 1, slides: [1, 2] }">
+        <div class="oeuvre-carousel">
+          <div x-show="activeSlide === 1">
+            <img src="public/img/carousel7.webp" alt="">
           </div>
-          
+          <div x-show="activeSlide === 2">
+            <img src="public/img/carousel6.webp" alt="">
+          </div>
         </div>
-        <button @click="currentSlide = currentSlide - 1" :disabled="currentSlide === 0">&lt;</button>
-        <button @click="currentSlide = currentSlide + 1" :disabled="currentSlide === slides.length - 1">&gt;</button>
+        <div class="indic">
+        <template x-for="slide in slides" :key="slide">
+          <button class="btn-indic" :class="{
+              'bg-color-success': activeSlide === slide,
+              '': activeSlide !== slide
+            }" x-on:click="activeSlide = slide"></button>
+        </template>
+        </div>
       </div>
-
         
       
 </body>

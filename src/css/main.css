@@ -130,3 +130,12 @@ a{
     color: #ffffff;
     font-weight: 100;
 }
+
+.texte-info{
+    font-family:'OrkneyRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 90px;
+}

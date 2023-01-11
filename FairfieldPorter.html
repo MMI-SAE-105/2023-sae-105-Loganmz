@@ -79,7 +79,25 @@
         <H3>Ses Oeuvres</H3>
     </div>
 
-
+    <div class="carousel" x-data="{ activeSlide: 1, slides: [1, 2] }">
+        <div class="oeuvre-carousel">
+          <div x-show="activeSlide === 1">
+            <a href="campus.html"><img src="public/img/carousel7.webp" alt=""></a> 
+          </div>
+          <div x-show="activeSlide === 2">
+            <a href="elms.html"><img src="public/img/carousel6.webp" alt=""></a>
+          </div>
+        </div>
+        <div class="indic">
+        <template x-for="slide in slides" :key="slide">
+          <button class="btn-indic" :class="{
+              'bg-color-success': activeSlide === slide,
+              '': activeSlide !== slide
+            }" x-on:click="activeSlide = slide"></button>
+        </template>
+        </div>
+    </div>
+        
 
 
 
