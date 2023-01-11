@@ -96,3 +96,18 @@ footer{
     color: #FFFFFF;
     font-size: 18px;
 }
+
+.div14 p{
+    font-family:'OrkneyRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+}
+
+.div14 H3{
+    font-size: 22px;
+    font-family:'Arkhip', sans-serif;
+    color: #000000;
+    font-weight: 100;
+}
