@@ -110,3 +110,23 @@ a{
     font-size: 24px;
     color: #FFFFFF;
 }
+
+
+.liste-menu h2{
+    font-size: 22px;
+    font-family:'Arkhip', sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+}
+.liste-menu a{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.listemenu {
+    font-size: 22px;
+    font-family:'Arkhip', sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+}

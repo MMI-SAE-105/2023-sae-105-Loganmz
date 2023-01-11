@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <div x-data="{ currentSlide: 0 }" class="carousel">
+        <div class="carousel__slides" x-bind:style="{ transform: 'translateX(-' + (currentSlide * 100) + '%)' }">
+          <div class="carousel__slide" x-for="(slide, index) in slides">
+            <img src="public/img/Media.webp" alt="">
+            
+          </div>
+          
+        </div>
+        <button @click="currentSlide = currentSlide - 1" :disabled="currentSlide === 0">&lt;</button>
+        <button @click="currentSlide = currentSlide + 1" :disabled="currentSlide === slides.length - 1">&gt;</button>
+      </div>
+
+        
+      
+</body>
+</html>

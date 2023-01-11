@@ -1,0 +1,15 @@
+.carousel {
+    overflow: hidden;
+  }
+  
+  .carousel__slides {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel__slide {
+    flex: 1;
+    height: 300px;
+    overflow: hidden;
+  }
+  

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contemporary</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
@@ -16,11 +17,48 @@
         <div class="line-header">
             <img src="public/img/line-header.svg" alt="">
         </div>
-        <div class="navtoogle">
-            <div class="navbar"></div>
-        </div>
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn">
+            <div class="navtoogle">
+                <div class="navbar"></div>
+            </div>
+        </button>
+        <nav id="mainNav" x-show="menuIsOpen" 
+        x-transition-.duration.80ms
+        class="menu">
+           <div class="menu-liste">
+            <ul class="liste-menu">
+                <h2>ARTISTE</h2>
+                <li><a href="FairfieldPorter.html">Fairfield Porter</a></li>
+                <li><a href="galentz.html">Harountiun Galentz</a></li>
+                <li><a href="herman.html">Josef Herman</a></li>
+                <li><a href="andrew.html">Andrew Wyeth</a></li>
+                <li><a href="Chronologies.html">Chronologie</a></li>
+            </ul>
+
+            
+            <ul class="liste-menu">
+                <h2>ARTISTE</h2>
+                <li><a href="campus.html">Amherst campus</a></li>
+                <li><a href="elms.html">Under the Elms</a></li>
+                <li><a href="paysage.html">Paysage de montagne</a></li>
+                <li><a href="nature.html">Nature morte. Fleurs</a></li>
+                <li><a href="mother.html">Mother & Child</a></li>
+                <li><a href="field.html">Field Workers</a></li>
+                <li><a href="christina.html">Christina’s World</a></li>
+                <li><a href="wind.html">Wind from the Sea</a></li>
+            </ul>
+
+            <a href="information.html"><h2 class="listemenu">INFORMATION</h2></a>
+
+            <a href="contact.html"><h2 class="listemenu">CONTACT</h2></a>
+
+            <div class="div6"><p><span>Fondation Cartier, 261 Bd Raspail,</span> <span>75014 Paris</span></p></div>
+
+           </div>
+        </nav>   
         
     </header>
+
 
     <H2 class="Titre-article"><span>Chronologies des</span> <span>Artistes</span></H2>
     <HR class="ligne"></HR>
