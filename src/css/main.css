@@ -36,13 +36,7 @@ a{
     -webkit-text-stroke: 1px black;
     
 }
-.footer-grid{
-    font-size: 10px;
-    font-family:'Arkhip', sans-serif;
-    color: #FFFFFF;
-    font-weight: 100;
 
-}
 .div6{
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
@@ -54,10 +48,7 @@ a{
     color: #FFFFFF;
     font-size: 10px;
 }
-footer{
-    background-color: rgb(0, 0, 0,0.7) ;
-    
-}
+
 .sous_titre_date{
     font-family:'OrkneyRegular';
     font-weight: normal;
@@ -110,4 +101,12 @@ footer{
     font-family:'Arkhip', sans-serif;
     color: #000000;
     font-weight: 100;
+}
+
+.titre-boutton{
+    font-family:'OrkneyRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    color: #FFFFFF;
 }
