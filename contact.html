@@ -8,7 +8,7 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet" href="src/css/style.css">
 </head>
-<body>
+<body class="contact-page">
     <header>
         <div class="home">
             <a href="\"><img src="public/img/HOME.svg" alt="home"></a>
@@ -37,7 +37,7 @@
 
             
             <ul class="liste-menu">
-                <h2>ARTISTE</h2>
+                <h2>OEUVRES</h2>
                 <li><a href="campus.html">Amherst campus</a></li>
                 <li><a href="elms.html">Under the Elms</a></li>
                 <li><a href="paysage.html">Paysage de montagne</a></li>
@@ -58,3 +58,32 @@
         </nav>   
         
     </header>
+
+    <H2 class="Titre-article">Information</H2>
+    <HR class="ligne"></HR>
+
+    <form>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="user_email">
+        
+        <label for="message">Message :</label>
+        <textarea id="message" name="user_message"></textarea>
+        
+        <input type="submit" value="Envoyer">
+    </form>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="div3"><H2>INFORMATIONS</H2></div>
+            <div class="div4"><H2>CONTACT</H2></div>
+            <div class="div5"><H2>BILLETTERIE</H2></div>
+            <div class="div6"><p><span>Fondation Cartier, 261 Bd Raspail,</span> <span>75014 Paris</p></div>
+            <div class="div7"><p>MMI Montbeliard</p></div>
+        </div>
+    </footer>
+
+</body>
+</html>
